@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#homescreen {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#particle {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+#homescreen > img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+}
+.landtext {
+  position: absolute;
+  display: grid;
+  place-items: center;
+}
+
+.landtext > h1 {
+  color: white;
+}
+
+.typewrite {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom:10px;
+}
+.btn {
+  margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+#contactscreen {
+  width: 100vw;
+  height: 100vh;
+  background-color:gray;
+  display:grid;
+
+}
+
+.inner-form {
+  background-color: rgb(155, 152, 152);
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.icons > a{
+  height: 100px;
+  width:100px;
+  background-color: rgb(235, 197, 197);
+  border-radius: 50%;
+  text-align: center;
+  margin:10px;
+  box-shadow: 1px, 4px, 2px, 2px rgb(128, 67, 67);
+  line-height: 90px;
+}
+
+ .iconfb{
+  font-size:50px !important;
+  transition: 0.3s ;
+}
+.iconin{
+  font-size:50px !important;
+  color:#e84393 !important;
+  transition: 0.3s ;
+}
+.icontw{
+  font-size:50px !important;
+  color:#0097e6 !important;
+  transition: 0.3s ;
+}
+.iconli{
+  font-size:50px !important;
+  color:#0097e6 !important;
+  transition: 0.3s ;
+}
+.icons > a:hover .iconfb {
+  transform: scale(1.4);
+}
+.icons > a:hover  .iconin {
+  transform: scale(1.4);
+}
+.icons > a:hover .icontw {
+  transform: scale(1.4);
+}
+.icons > a:hover .iconli {
+  transform: scale(1.4);
+}

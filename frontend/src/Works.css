@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work{
+    background-color: rgb(37, 37, 75);
+    width:100vw;
+}
