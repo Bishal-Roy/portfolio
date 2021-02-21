@@ -11,7 +11,7 @@ function Contact() {
       <div className="container">
         <div className="row py-5">
           <div className="col">
-            <h3 className="text-center text-uppercase">contact me</h3>
+            <h3 className="text-center text-uppercase text-white">contact me</h3>
           </div>
         </div>
         <form action="backend">
@@ -20,7 +20,7 @@ function Contact() {
               <input type="text" className="form-control inner-form" placeholder="Your Name"/>
             </div>
             <div className="col-md">
-            <input type="text" className="form-control inner-form" placeholder="Your Email"/>
+            <input type="email" className="form-control inner-form" placeholder="Your Email"/>
             </div>
           </div>
           <div className="row my-3">
@@ -34,6 +34,9 @@ function Contact() {
             </div>
           </div>
         </form>
+
+
+       
           <div className="icons">
           <a href="https://www.facebook.com/bishal.roy.779642/" target="_blank"><FacebookIcon className="iconfb"/> </a>
           <a href="https://www.instagram.com/bishal.r97/" target="_blank"><InstagramIcon className="iconin"/> </a>

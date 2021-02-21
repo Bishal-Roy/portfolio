@@ -1,13 +1,9 @@
 #contactscreen {
-  width: 100vw;
-  height: 100vh;
-  background-color:gray;
-  display:grid;
-
+  background-color:#252934;
 }
 
 .inner-form {
-  background-color: rgb(155, 152, 152);
+  background-color: #1e242c;
 }
 
 .icons{

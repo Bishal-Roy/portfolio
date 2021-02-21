@@ -43,7 +43,9 @@ function About() {
         </div>
       </div>
       <div className="skill container-fluid ">
-        <h1>SKILLS</h1>
+        <div className="sk">
+          <h1>SKILLS</h1>
+        </div>
         {/* <div class="container">
           <div class="row row-cols-2">
             <div class="col">
@@ -90,7 +92,7 @@ function About() {
             </div>
           </div>
         </div> */}
-        <div className="strongpoint">
+        {/* <div className="strongpoint">
           <div className="body">
             <SpeedTwoToneIcon className="icon" />
             <div className="details">
@@ -124,6 +126,55 @@ function About() {
                 Websites don't have to be static, I love making pages come to
                 life.
               </p>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="container">
+          <div className="row my-5 mx-2 ">
+            <div className="col-sm ">
+              <div className="body m-auto">
+                <SpeedTwoToneIcon className="icon" />
+                <div className="details">
+                  <h2>Fast</h2>
+                  <p>
+                    Fast load times and lag free interaction, my highest
+                    priority.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm">
+              <div className="body m-auto">
+                <DevicesTwoToneIcon className="icon" />
+                <div className="details">
+                  <h2>Responsive</h2>
+                  <p>My layouts will work on any device, big or small.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row  mx-2">
+            <div className="col-sm">
+              <div className="body m-auto">
+                <Brightness7Icon className="icon" />
+                <div className="details">
+                  <h2>Intuitive</h2>
+                  <p>Strong preference for easy to use, intuitive UX/UI.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm">
+              <div className="body m-auto">
+                <DynamicFeedIcon className="icon" />
+                <div className="details">
+                  <h2>Dynamic</h2>
+                  <p>
+                    Websites don't have to be static, I love making pages come
+                    to life.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
