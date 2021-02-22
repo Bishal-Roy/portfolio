@@ -3,13 +3,16 @@ import "./Header.css";
 function Header() {
   return (
     <>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light text-uppercase">
-        <div class="container">
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light text-uppercase sticky-top"
+        id="navbar-example"
+      >
+        <div className="container">
           <a className="navbar-brand" href="#homescreen">
             home
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -17,26 +20,22 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#aboutscreen"
-                >
+          <div className="collapse navbar-collapse " id="navbarNav">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#aboutscreen">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#worksscreen">
+              <li className="nav-item">
+                <a className="nav-link" href="#worksscreen">
                   Portfolio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contactscreen">
+              <li className="nav-item">
+                <a className="nav-link" href="#contactscreen">
                   Contact
                 </a>
               </li>

@@ -9,7 +9,7 @@ import Persantage from "./components/Persantage";
 function About() {
   return (
     <>
-      <div className="about container-fluid" id="aboutscreen">
+      <div className="about container-fluid" id="aboutscreen" >
         <div className="designmain">
           <div className="design">
             <img src="/images/imgone.jpg" alt="my image" />
